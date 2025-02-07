@@ -1,7 +1,7 @@
 import fs from "node:fs";
 
 import { SITE_TITLE } from "@/consts";
-const image = fs.readFileSync("./public/astro.png");
+const image = fs.readFileSync("./public/favicon-96x96.png");
 const imageDataUrl = `data:image/png;base64,${image.toString("base64")}`;
 
 export function HomeOgTemplate() {

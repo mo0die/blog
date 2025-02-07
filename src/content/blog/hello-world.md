@@ -39,9 +39,6 @@ The feeling of solving a problem after banging your head against it for hours is
 
 Now, I’m correcting the mistakes I made in university. I’m relearning the fundamentals and challenging myself to master my development environment.
 
-- math
-- algo
-
 One of my goals for 2025 is to stop using my trackpad and do everything with the keyboard (shoutout to ThePrimeagen for inspiring this challenge).
 
 Back in university (2017–2021), I didn’t have access to creators like Theo and Primeagen, or maybe my algorithm was just flooded with music. Either way, I never had senior-level coders guiding me.

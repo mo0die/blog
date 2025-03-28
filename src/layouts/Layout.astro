@@ -1,9 +1,10 @@
 ---
-import { SEO, type Props as SEOProps } from 'astro-seo';
+import { SEO, type Props as SEOProps } from "astro-seo";
 
 import { SITE_DESCRIPTION, SITE_TITLE } from "@/consts";
 import Header from "@/components/Header.astro";
 import Footer from "@/components/Footer.astro";
+import Analytics from "@vercel/analytics/astro";
 
 interface Props extends SEOProps {
   locale?: string;
@@ -47,6 +48,7 @@ const { locale = "en" } = Astro.props as Props;
   <body
     class="bg-white text-slate-900 leading-normal tracking-normal w-4/5 md:max-w-3xl mx-auto"
   >
+    <Analytics />
     <main class="container flex flex-col space-y-4 min-h-screen">
       <Header />
       <slot name="content" />

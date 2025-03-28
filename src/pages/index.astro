@@ -5,7 +5,6 @@ import Layout from "../layouts/Layout.astro";
 import Prose from "../components/Prose.astro";
 import FormattedDate from "@/components/FormattedDate.astro";
 import { SITE_DESCRIPTION, SITE_TITLE } from "@/consts";
-import Analytics from "@vercel/analytics/astro";
 
 const entry = await getEntry("info", "intro");
 const { Content } = await render(entry!);
@@ -37,7 +36,6 @@ const uniqueTags = [
     },
   }}
 >
-  <Analytics />
   <Fragment slot="content">
     <Prose>
       <Content />

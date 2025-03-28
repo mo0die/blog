@@ -6,8 +6,6 @@ pubDate: "Feb 6 2025"
 
 # WHO ARE YOU?!?
 
-![meme](src/content/images/helloworld/meme.png)
-
 Hi! The world calls me Ahmad, but I prefer Moodie on the internet.
 
 Why Moodie? Cause Why not?

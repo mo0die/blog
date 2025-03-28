@@ -67,7 +67,7 @@ the app will only have an hour limit on my phone to prevent me from wasting too 
 1. Post one vlog-style video that will essentially serve as a weekly stand-up to Twitter; this will also be on YouTube.
    -- essentially a montage of all the work i'm doing and a voice over.
 
-2. Post one blog post on my site.
+2. Post a blog
 
 After 90 days, I aim to hit these goals:
 

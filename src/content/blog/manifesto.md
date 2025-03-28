@@ -82,7 +82,7 @@ Also, if this all doesn't go to plan, at least I'll come out with my app (which 
 
 Thank you for reading this,
 
-if you want to follow this journey please follow me [X](https://x.com/Mo0diie) and subscribe to my [Youtube](https://www.youtube.com/@moodiiie)
+if you want to follow this journey please follow me on [X](https://x.com/Mo0diie) and subscribe to my [Youtube](https://www.youtube.com/@moodiiie)
 
 Oh, and one last thing:
 

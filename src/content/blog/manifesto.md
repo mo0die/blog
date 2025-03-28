@@ -10,7 +10,7 @@ For the longest time, I wanted to grow an audience on a social platform. In 2019
 
 During that time, good content worked. I posted sample packs 3 times a week for free and made a few connections. This is something I want to get back to eventually, although I don't know when.
 
-**_(Sample packs are music compositions that are used by producers to sample without having to worry about copyright or fear being sued. These samples were made to be sampled and used by producers)_**
+_*(Sample packs are music compositions that are used by producers to sample without having to worry about copyright or fear being sued. These samples were made to be sampled and used by producers)*_
 
 ## What does that have to do with X?
 

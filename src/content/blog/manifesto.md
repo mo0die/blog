@@ -87,5 +87,9 @@ if you want to follow this journey please follow me [X](https://x.com/Mo0diie) a
 Oh, and one last thing:
 
 Everything I write is not by AI. AI is only used for grammar, spelling, and flow. Thoughts and ideas are all mine.
+<br>
+<sub>
+<a href="https://www.moodie.blog/references/prompt/">prompt</a>
+</sub>
 
 Moodie

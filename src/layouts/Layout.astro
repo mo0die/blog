@@ -1,5 +1,6 @@
 ---
 import { SEO, type Props as SEOProps } from "astro-seo";
+import SpeedInsights from "@vercel/speed-insights/astro";
 
 import { SITE_DESCRIPTION, SITE_TITLE } from "@/consts";
 import Header from "@/components/Header.astro";
@@ -54,5 +55,6 @@ const { locale = "en" } = Astro.props as Props;
       <slot name="content" />
       <Footer />
     </main>
+    <SpeedInsights />
   </body>
 </html>

@@ -33,10 +33,7 @@ const uniqueTags = [
     basic: {
       title: SITE_TITLE,
       type: "website",
-      image: `${Astro.site}og.png`,
-    },
-    optional: {
-      description: SITE_DESCRIPTION,
+      image: new URL("public/og.png", Astro.url).href,
     },
   }}
 >

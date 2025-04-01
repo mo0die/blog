@@ -17,6 +17,10 @@ const references = (await getCollection("references")).sort(
   (b, a) => a.data.pubDate.valueOf() - b.data.pubDate.valueOf()
 );
 
+const challenges = (await getCollection("challenges")).sort(
+  (b, a) => a.data.pubDate.valueOf() - b.data.pubDate.valueOf()
+);
+
 const uniqueTags = [
   ...new Set(
     posts.flatMap((post) => post.data.tags).filter((tag) => tag !== undefined)
@@ -50,6 +54,24 @@ const uniqueTags = [
               <a
                 href={`/posts/${post.id}/`}
                 class="text-blue-500 md:text-lg hover:underline"
+              >
+                {post.data.title}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+    <div class="flex flex-col space-y-2">
+      <h1 class="text-2xl font-medium">90 Day Theory</h1>
+      <ul class="flex flex-col space-y-4 md:space-y-0">
+        {
+          challenges.map((post) => (
+            <li class="flex flex-col space-x-0 md:flex-row md:space-x-2 md:items-baseline">
+              <FormattedDate date={post.data.pubDate} />
+              <a
+                href={`/challenges/${post.id}/`}
+                class="text-orange-500 md:text-lg hover:underline"
               >
                 {post.data.title}
               </a>

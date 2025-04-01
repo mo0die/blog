@@ -29,9 +29,22 @@ const references = defineCollection({
   }),
 });
 
+const challenges = defineCollection({
+  loader: glob({ base: "./src/content/challenges", pattern: "**/*.{md,mdx}" }),
+  schema: z.object({
+    title: z.string(),
+    description: z.string().optional(),
+    // Transform string to Date object
+    pubDate: z.coerce.date(),
+    // TODO: add modified date
+    // modDate: z.coerce.date().optional(),
+    tags: z.array(z.string()).optional(),
+  }),
+});
+
 const info = defineCollection({
   loader: glob({ base: "./src/content/info", pattern: "**/*.{md,mdx}" }),
   schema: z.any(),
 });
 
-export const collections = { blog, info, references };
+export const collections = { blog, info, references, challenges };

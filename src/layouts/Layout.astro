@@ -24,6 +24,29 @@ const { locale = "en" } = Astro.props as Props;
       description={SITE_DESCRIPTION}
       charset="utf-8"
       canonical={canonicalURL}
+      openGraph={{
+        basic: {
+          title: SITE_TITLE,
+          type: "website",
+          image: `${Astro.site}og.png`,
+        },
+        optional: {
+          description: SITE_DESCRIPTION,
+          locale: locale,
+          siteName: SITE_TITLE,
+        },
+        image: {
+          alt: `${SITE_TITLE} - Open Graph Image`,
+          width: 1200,
+          height: 630,
+          type: "image/png",
+        },
+      }}
+      twitter={{
+        card: "summary_large_image",
+        site: "@yourtwitterhandle", // Replace with your Twitter handle
+        creator: "@yourtwitterhandle", // Replace with your Twitter handle
+      }}
       {...Astro.props}
       extend={{
         meta: [

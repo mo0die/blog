@@ -11,8 +11,8 @@ pubDate: 2025-03-31
 
 ### 0-7 Days
 
-- Body weight: \_\_
-- Fat percentage: \_\_
+- Body weight: 173
+- Fat percentage: 24%
 
 ### 8-14 Days
 
